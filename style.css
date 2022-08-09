@@ -1,0 +1,194 @@
+body{
+    background-color: hsl(216, 12%, 8%);
+    display: grid;
+    place-items: center;
+}
+
+/* temporary section */
+
+h2{
+    color: hsl(0, 0%, 100%);
+    width: 80%;
+    
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+    font-family: Overpass;
+    font-weight: 700;
+}
+
+p{
+    color: hsl(217, 12%, 63%);
+    width: 90%;
+    margin-top: 0.5em;
+    margin-left: 2.2em;
+    font-family: Overpass;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.sub-class{
+    color: hsl(217, 12%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+    gap: 1em;
+}
+
+.main{
+    background-color: hsl(216, 19%, 18%);
+    width: 400px;
+    height: 400px;
+    margin-top: 200px;
+    margin-bottom: 170px; 
+    border-radius: 25px;
+    
+}
+
+.num{
+    width: 50px;
+    height: 50px;
+    background-color: hsla(216, 12%, 54%,0.2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-family: Overpass;
+}
+
+button{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    background: hsl(25, 97%, 53%);
+    border-radius: 20px;
+    color: hsl(0, 0%, 100%);
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-family: Overpass;
+    font-weight: 400;
+    border: none;
+    outline: none;
+}
+
+.btn{
+    width: 300px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5em;
+    height: 40px;
+    margin-left: 3em;
+   
+
+}
+
+.star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: hsla(216, 12%, 54%,0.2);
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.num:hover{
+    background: hsl(25, 97%, 53%);
+    color: rgb(250, 251, 250);
+    cursor: pointer;
+}
+.num:focus{
+    background-color: hsl(217, 12%, 63%);
+}
+
+
+
+
+
+
+button:hover{
+    background-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition-duration: 0.2s;
+    color: hsl(25, 97%, 53%);
+}
+#sub:focus{
+    /* background-color: hsl(0, 0%, 100%); */
+    cursor: pointer;
+    /* color: hsl(25, 97%, 53%); */
+    
+    
+}
+
+.thankyou{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    margin-top: 12em;
+    background: hsl(216, 19%, 18%);
+    width: 400px;
+    height: 400px;
+    margin-left: 3em;
+    border-radius: 25px;
+    margin-right: 3em;
+    
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+
+.spane{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    width: 60%;
+    height: 2em;
+    text-align: center;
+    background: hsla(216, 12%, 54%,0.2);
+    margin-top: 2.5em;
+    color:hsl(25, 97%, 53%);
+    margin-left: 5em;
+
+}
+
+
+
+
+
+#tq1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    padding-right: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+#tq2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 84%;
+    text-align: center;
+    padding-right: 1.5em;
+    line-height: 1.5em;
+    
+    
+}
